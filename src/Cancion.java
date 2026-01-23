@@ -10,4 +10,4 @@ public Cancion(int Duracion, String Artista, String Titulo){
     this.Titulo=Titulo;
     }
     
-
+}
