@@ -2,7 +2,7 @@
 public class Principal{
     public static void main(String[] args) {
 
-    Cancion Cancion=new  Cancion(3, "jeisson", "el mejor caballo");
-
+    Cancion Lista= new Cancion(3, "jeison jimenez", "el mejor caballo");
+System.out.println("Titulo: " + insCancion);
     }
 }
