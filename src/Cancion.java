@@ -9,28 +9,31 @@ public Cancion(double Duracion, String Artista, String Titulo){
     this.Titulo=Titulo;
     this.Duracion=Duracion;
 }
-    private String getArtista(){
+    public String getArtista(){
     return Artista;
     }
-    private String getTitulo(){
-    return Titulo;
-    }
-    private double getDuracion(){
-    return Duracion;
-    }
-
-    public void setArtista(String Artista){
+     public void setArtista(String Artista){
         this.Artista= Artista;
     }
 
-
+    public String getTitulo(){
+    return Titulo;
+    }
     public void setTitulo(String Titulo){
         this.Titulo= Titulo;
     }
 
-
+    public double getDuracion(){
+    return Duracion;
+    }
     public void setDuracion(double  Duracion){ 
         this.Duracion= Duracion;
+    }
+    
+    public void mostrarInfo(){
+        System.out.println("Artista"+ Artista);
+        System.out.println("Titulo"+ Titulo );
+        System.out.println("Duracion"+ Duracion);
     }
 
     
