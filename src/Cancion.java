@@ -15,10 +15,24 @@ public Cancion(double Duracion, String Artista, String Titulo){
     private String getTitulo(){
     return Titulo;
     }
-    private void getDuracion(){
+    private double getDuracion(){
     return Duracion;
     }
 
+    public void setArtista(String Artista){
+        this.Artista= Artista;
+    }
+
+
+    public void setTitulo(String Titulo){
+        this.Titulo= Titulo;
+    }
+
+
+    public void setDuracion(double  Duracion){ 
+        this.Duracion= Duracion;
+    }
+
     
-    
+ 
 }
